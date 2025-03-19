@@ -1,0 +1,102 @@
+.main {
+  background-image: url("../assets/images/background-desktop.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.pattern-top {
+  position: absolute;
+  top: 40px;
+  right: 15px;
+  width: 300px;
+  height: auto;
+}
+.pattern-bottom {
+  position: absolute;
+  bottom: 40px;
+  left: 20px;
+  width: 400px;
+  height: auto;
+}
+.logo-full {
+  margin-top: 20px;
+}
+.main p {
+  font-size: 12px;
+  margin-top: 20px;
+  color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+  .main h1 {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  .patternticket {
+    width: 100%; /* Reduce width for smaller screens */
+    max-width: 300px; /* Adjust maximum width for mobile */
+  }
+  .pattern-top {
+    position: absolute;
+    top: 10px;
+    right: -20px;
+    width: 120px;
+    height: auto;
+  }
+
+  .pattern-bottom {
+    position: absolute;
+    bottom: 10px;
+    left: -10%;
+    width: 120px;
+    height: auto;
+  }
+  .card-details {
+    width: 90%; /* Reduce width for better fit */
+    max-width: 350px; /* Limit maximum width */
+    margin: 40px auto; /* Center the card */
+    position: relative;
+  }
+
+  .patternticket {
+    width: 100%; /* Make pattern responsive */
+  }
+
+  .card-detail-top {
+    top: -8px !important;
+    left: 32px !important;
+    font-size: 10px !important; /* Reduce font size for better spacing */
+  }
+
+  .card-detail-top img {
+    width: 120px; /* Adjust logo size */
+  }
+
+  .card-detail-bottom {
+    bottom: 8px;
+    left: 32px !important;
+    gap: 6px; /* Reduce gap for smaller screens */
+  }
+
+  .card-detail-bottom img {
+    width: 35px; /* Adjust avatar size */
+    border-radius: 10%;
+  }
+
+  .card-detail-bottom p {
+    font-size: 12px; /* Adjust text size */
+  }
+
+  .card-detail-bottom img[alt="GitHub Icon"] {
+    width: 14px; /* Reduce GitHub icon size */
+  }
+}

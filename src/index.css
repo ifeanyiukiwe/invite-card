@@ -1,0 +1,12 @@
+@import "bootstrap/dist/css/bootstrap.min.css";
+@font-face {
+  font-family: "Inconsolata";
+  src: url("./assets/fonts/Inconsolata-VariableFont_wdth,wght.ttf")
+    format("truetype");
+  font-weight: 100 900;
+  font-style: normal;
+}
+
+body {
+  font-family: "Inconsolata", monospace;
+}
