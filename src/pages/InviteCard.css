@@ -43,7 +43,8 @@
   }
   .patternticket {
     width: 100%;
-    max-width: 325px;
+    max-width: 310px;
+    margin-top: 40px;
   }
   .pattern-top {
     position: absolute;
