@@ -43,8 +43,7 @@
   }
   .patternticket {
     width: 100%;
-    max-width: 310px;
-    margin-top: 40px;
+    max-width: 300px;
   }
   .pattern-top {
     position: absolute;
@@ -73,7 +72,7 @@
   }
 
   .card-detail-top {
-    top: -8px !important;
+    top: -10px !important;
     left: 32px !important;
     font-size: 10px !important; /* Reduce font size for better spacing */
   }
