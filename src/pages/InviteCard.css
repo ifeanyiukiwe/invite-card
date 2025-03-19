@@ -42,8 +42,8 @@
     margin-bottom: 20px;
   }
   .patternticket {
-    width: 100%; /* Reduce width for smaller screens */
-    max-width: 300px; /* Adjust maximum width for mobile */
+    width: 100%;
+    max-width: 800px;
   }
   .pattern-top {
     position: absolute;
@@ -61,9 +61,9 @@
     height: auto;
   }
   .card-details {
-    width: 90%; /* Reduce width for better fit */
-    max-width: 350px; /* Limit maximum width */
-    margin: 40px auto; /* Center the card */
+    width: 90%;
+    max-width: 350px;
+    margin: 40px auto;
     position: relative;
   }
 
