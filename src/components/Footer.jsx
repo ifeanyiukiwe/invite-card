@@ -5,7 +5,7 @@ function Footer() {
 
   return (
     <footer style={{ textAlign: "center", padding: "10px", color: "#fff" }}>
-      &copy; {currentYear} All rights reserved Cadinals Design.
+      &copy; {currentYear} All rights reserved Cardinals Design.
     </footer>
   );
 }
